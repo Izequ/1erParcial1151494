@@ -7,6 +7,7 @@ div img.logo{
 #titulo{
     padding: 50px;
     height: 100%;
+    margin-left: 15px;
 }
 #titulo h1{
     font-weight: bolder;
