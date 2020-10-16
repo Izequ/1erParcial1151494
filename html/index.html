@@ -32,19 +32,16 @@
         <div class="menu">
                 <ul>
                     <li>
-                        <a href="#">Home |</a>
+                        <a href="#">INICIO | </a>
                     </li>
                     <li>
-                        <a href="#">INICIO|</a>
+                        <a href="#arquitecturas">ARQUITECTURAS| </a>
                     </li>
                     <li>
-                        <a href="#">ARQUITECTURAS |</a>
+                        <a href="#tecnologias">TECNOLOGIAS | </a>
                     </li>
                     <li>
-                        <a href="#">TECNOLOGIAS |</a>
-                    </li>
-                    <li>
-                        <a href="#"> CONTACTOS |</a>
+                        <a href="#contacto">CONTACTOS | </a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +50,7 @@
 
 <section class="bloque">
     <div>
-        <h3>El Modelo cero y el código spaguetti</h3>
+        <h3 id="arquitecturas">El Modelo cero y el código spaguetti</h3>
         <div class="divimg">
             <img src="../imagenes/ArquitecturasWebSpagetti.png" alt="">
         </div>
@@ -70,7 +67,7 @@
     </div>
     <div>
         <h3>El Modelo 1</h3>
-        <div>
+        <div class="divimg">
             <img src="../imagenes/ArquitecturasWebModelo1-2.png" alt="">
         </div>
         <p>Este fue un salto importante , promueve la modularización
@@ -85,7 +82,7 @@
     </div>
     <div>
         <h3>El modelo 2 (MVC)</h3>
-        <div >
+        <div class="divimg">
             <img src="../imagenes/ArquitecturasWebModelo2-2.png" alt="">
         </div>
         <p>Quizás para mucha gente el modelo más importante, se
@@ -101,7 +98,7 @@
 <section class="bloque">
     <div>
         <h3>El Modelo FrontController/Enrutador</h3>
-        <div>
+        <div  class="divimg">
             <img src="../imagenes/ArquitecturasWebModeloMVC2-1.png" alt="">
         </div>
         <p>Una evolución importante del modelo MVC fue el modelo
@@ -116,7 +113,7 @@
     </div>
     <div>
         <h3>Arquitecturas Web y Ajax</h3>
-        <div>
+        <div  class="divimg">
             <img src="../imagenes/ArquitecturasWebAjax-1.png" alt="">
         </div>
         <p>Hasta ese momento todas las evoluciones se produjeron
@@ -129,7 +126,7 @@
     </div>
     <div>
         <h3>Arquitecturas Web y SPA)</h3>
-        <div>
+        <div  class="divimg">
             <img src="../imagenes/ArquitecturasWebSPASimple.png" alt="">
         </div>
         <p>Con la llegada del mundo móvil y la necesidad de tener las
@@ -145,7 +142,7 @@
 <section class="bloque">
     <div>
         <h3>Arquitecturas SPA MVC</h3>
-        <div>
+        <div  class="divimg">
             <img src="../imagenes/ArquitecturasWebSPA2.png" alt="">
         </div>
         <p>Poco a poco el lado cliente comienza a tener más peso en
@@ -157,7 +154,7 @@
     </div>
     <div>
         <h3>SPA MVC y uso de componentes</h3>
-        <div>
+        <div  class="divimg">
             <img src="../imagenes/ArquitecturasWebSPAComponentes-2.png" alt="">
         </div>
         <p>Estas arquitecturas empiezan a madurar rápidamente y
@@ -170,7 +167,7 @@
     </div>
     <div>
         <h3>Arquitecturas Web Isomórficas</h3>
-        <div>
+        <div  class="divimg">
             <img src="../imagenes/ArquitecturasWebIsomorfica.png" alt="">
         </div>
         <p>Ahora mismo estamos entrando en otra fase , comienza a
@@ -185,9 +182,9 @@
     </div>
 </section>
 
-<section>
+<section class="bloque2">
     <div>
-        <h2>Tecnologias</h2>
+        <h2 id="tecnologias">Tecnologias</h2>
         <p>Backend es la capa de acceso a datos de un software o cualquier
             dispositivo, que no es directamente accesible por los usuarios,
             además contiene la lógica de la aplicación que maneja dichos datos.
@@ -204,16 +201,16 @@
     </div>
     <div>
         <h3>BACKEND</h3>
-        <div>
+        <div class="divimg2">
             <img src="../imagenes/mejores-lenguajes-de-programacion-2018-1080x675.jpg" alt="">
         </div>
     </div>
 </section>
 
-<section>
+<section class="bloque2">
     <div>
         <h3>FRONTEND</h3>
-        <div>
+        <div  class="divimg2">
             <img src="../imagenes/logosLenguajes.png" alt="">
         </div>
     </div>
@@ -240,13 +237,17 @@
     </div>
 </section>
 
-<section>
+<section class="bloque2">
+    <h2 id="contacto">Contacto</h2>
     <form action="">
         <div>
-
+            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+            <p>Email: <input type="email" name="email" min="50"></p>
+            <p>Telefono: <input type="number" name="tel" size="40"></p>
         </div>
         <div>
-
+            <input type="text" name="" id="" size="60"  placeholder="asunto">
+            <a class="boton" href="info.html">Ver mas</a>
         </div>
     </form>
 </section>
