@@ -1,0 +1,143 @@
+div img.logo{
+    width: 150px;
+    height: 20%;
+    float: left;
+    
+}
+#titulo{
+    padding: 50px;
+    height: 100%;
+}
+#titulo h1{
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.menu{
+    background-color: red;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.menu ul li a:hover{
+    background-color: #229C79;
+}
+.bloque{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bloque div{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.bloque.divimg img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+
+.menu2{
+    background-color: red;
+    width: 100%; 
+    float: left;
+}
+.menu2 ul li{
+    display: inline-block;
+
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+}
+.menu2 ul li a:hover{
+    background-color: #229C79;
+}
+
+
+
+.apartado{
+    float: left;
+    width: 50%;
+}
+.apartado a img{
+    width: 100%;
+    height: 100%;
+    
+}
+.apartado  h2{
+    font-weight: bolder;
+}
+.apartado p{
+    font-size: 20px;
+    margin: 5px;
+}
+.mas h2{
+    font-weight: bolder;
+}
+.mas p{
+    font-size: 20px;
+    margin: 5px;
+}
+.resp{
+    clear: both;
+}
+.boton{
+    float: right;
+    margin-right: 70px;
+    font-size: 15pt;
+    color: seashell;
+    background-color: royalblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+footer{
+    background-color: red ;
+    color: white;
+    width: 100%;
+    height: 190px;
+    text-decoration: none;
+}
+footer a{
+    color: white;
+}
+
+.enlaces{
+    float: left;
+    width: 35%;
+    padding-top: 3px;
+}
+.enlaces a{
+    margin-left: 10px;
+}
+.contac{
+    padding-top: 3px;
+    clear: right;
+}
+.ultimo{
+    padding-top: 10px;
+    clear: both;
+    text-align: center;
+}
+

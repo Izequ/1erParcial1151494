@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <title>Arquitecturas</title>
+
+</head>
+<body>
+    
+    <div>
+        <div>
+             <a href="#">
+                    <img class="logo" src="../imagenes/ufpslogo.png" alt="">
+            </a>
+        </div>
+        <div id="titulo">
+            <h1>Arquitecturas Web</h1>
+        </div>
+    </div>
+                
+             
+        
+<nav>
+        <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Home |</a>
+                    </li>
+                    <li>
+                        <a href="#">INICIO|</a>
+                    </li>
+                    <li>
+                        <a href="#">ARQUITECTURAS |</a>
+                    </li>
+                    <li>
+                        <a href="#">TECNOLOGIAS |</a>
+                    </li>
+                    <li>
+                        <a href="#"> CONTACTOS |</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+
+<section class="bloque">
+    <div>
+        <h3>El Modelo cero y el código spaguetti</h3>
+        <div class="divimg">
+            <img src="../imagenes/ArquitecturasWebSpagetti.png" alt="">
+        </div>
+        <p>Soluciones iniciales cliente/servidor en las que tenemos
+            una página JSP/ASP/PHP que se conecta a una base de
+            datos y genera un nuevo contenido html. Es código
+            spaguetti, el que nadie quiere tener que pero que en su
+            momento se usó mucho. A día de hoy lo puedes
+            encontrar en más sitios de los que se piensa. Como
+            ventaja fundamental destaca su sencillez a nivel de
+            arquitectura y como desventaja su poca flexibilidad y nula
+            capacidad de reutilización.
+            </p>
+    </div>
+    <div>
+        <h3>El Modelo 1</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebModelo1-2.png" alt="">
+        </div>
+        <p>Este fue un salto importante , promueve la modularización
+            y el uso de componentes a través de la programación
+            orientada a objeto. Fue desde mi punto de vista un gran
+            salto. Hay enfoques tipo Rails que se apoyaron más en un
+            patrón tipo Active Record y otros en Servicios y
+            Repositorios como Spring. La clave fundamental es
+            generar componentes en la capa de backend y aumentar la
+            reutilización de esa parte.
+            </p>
+    </div>
+    <div>
+        <h3>El modelo 2 (MVC)</h3>
+        <div >
+            <img src="../imagenes/ArquitecturasWebModelo2-2.png" alt="">
+        </div>
+        <p>Quizás para mucha gente el modelo más importante, se
+            apuesta por la separación de responsabilidades entre
+            Vista, Controlador y Modelo. Prácticamente todos los
+            frameworks web han implementado este enfoque de una
+            forma u otra. Ejemplos son: Struts en Java , ASP.NET en
+            Microsoft o Laravel en PHP.</p>
+    </div>
+</section>
+
+
+<section class="bloque">
+    <div>
+        <h3>El Modelo FrontController/Enrutador</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebModeloMVC2-1.png" alt="">
+        </div>
+        <p>Una evolución importante del modelo MVC fue el modelo
+            MVC 2 o de FrontController que apuesta por una
+            arquitectura en la que únicamente hay un controlador
+            principal y gestiona todo a través de acciones. Esta es un
+            poco la idea de muchos de los frameworks modernos con
+            el concepto de router en la capa de presentación. El
+            enfoque más clásico puede ser Struts en el lado del
+            servidor o Spring MVC.
+            </p>
+    </div>
+    <div>
+        <h3>Arquitecturas Web y Ajax</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebAjax-1.png" alt="">
+        </div>
+        <p>Hasta ese momento todas las evoluciones se produjeron
+            del lado del servidor. El lado cliente tenía pocas
+            novedades. Es en esta situación cuando surge AJAX como
+            tecnología para mejorar el rendimiento entre cliente y
+            servidor. Esto supuso una verdadera revolución a la forma
+            de programar
+            </p>
+    </div>
+    <div>
+        <h3>Arquitecturas Web y SPA)</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebSPASimple.png" alt="">
+        </div>
+        <p>Con la llegada del mundo móvil y la necesidad de tener las
+            aplicaciones web cada vez más desconectadas surgen las
+            arquitecturas SPA (Simple Page Application) . Su propuesta
+            principal es dar mayor responsabilidad al navegador y que
+            el se encargue de cargar las vistas y datos utilizando AJAX.
+        </p>
+    </div>
+</section>
+
+
+<section class="bloque">
+    <div>
+        <h3>Arquitecturas SPA MVC</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebSPA2.png" alt="">
+        </div>
+        <p>Poco a poco el lado cliente comienza a tener más peso en
+            los desarrollos y se necesita organizar mejor el código de
+            JavaScript . Aparecen los primeros frameworks MVC de
+            cliente como Backbone.js que permiten dividir las
+            responsabilidades de la misma forma que en el servidor.
+            </p>
+    </div>
+    <div>
+        <h3>SPA MVC y uso de componentes</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebSPAComponentes-2.png" alt="">
+        </div>
+        <p>Estas arquitecturas empiezan a madurar rápidamente y
+            aparecen tecnologías como Angular.js que promueve el
+            uso del modelo MVC y la utilización de componentes en
+            capa de presentación . Aparecen librerías
+            complementarias como React que se centran en estos
+            últimos.
+            </p>
+    </div>
+    <div>
+        <h3>Arquitecturas Web Isomórficas</h3>
+        <div>
+            <img src="../imagenes/ArquitecturasWebIsomorfica.png" alt="">
+        </div>
+        <p>Ahora mismo estamos entrando en otra fase , comienza a
+            llegar el JavaScript Isomórfico . Si nos fijamos en el último
+            diagrama la parte cliente y la parte servidor son muy
+            parecidas. ¿Qué sucedería en el caso de que ambas partes
+            estuvieran implementadas en JavaScript? . Pues que
+            probablemente mucho código se podría compartir y según
+            se ejecutara la aplicación en cliente o en servidor el
+            comportamiento variaría.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h2>Tecnologias</h2>
+        <p>Backend es la capa de acceso a datos de un software o cualquier
+            dispositivo, que no es directamente accesible por los usuarios,
+            además contiene la lógica de la aplicación que maneja dichos datos.
+            El Backend también accede al servidor, que es una aplicación
+            especializada que entiende la forma como el navegador solicita cosas.
+
+            Algunos de los lenguajes de programación de Backend son Python,
+            PHP, Ruby, C# y Java, y así como en Frontend, cada uno de los
+            anteriores tiene diferentes frameworks que te permiten trabajar
+            mejor según el proyecto que estás desarrollando. En Platzi tenemos
+            Django, Laravel, Ruby On Rails y ASP.Net, los hemos elegido sobre
+            todo porque tienen una gran comunidad que los respalda.
+            </p>
+    </div>
+    <div>
+        <h3>BACKEND</h3>
+        <div>
+            <img src="../imagenes/mejores-lenguajes-de-programacion-2018-1080x675.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h3>FRONTEND</h3>
+        <div>
+            <img src="../imagenes/logosLenguajes.png" alt="">
+        </div>
+    </div>
+    <p>
+        Frontend es la parte de un sitio web que interactúa con los usuarios, por eso
+        decimos que está del lado del cliente. Backend es la parte que se conecta con
+        la base de datos y el servidor que utiliza dicho sitio web, por eso decimos que
+        el backend corre del lado del servidor. Estos dos conceptos explican a grandes
+        rasgos cómo funciona una página web y son fundamentales para cualquier
+        persona que trabaje en el mundo digital, ya sea en programación, marketing,
+        diseño o emprendimiento.
+        Frontend es la parte de un programa o dispositivo a la que un usuario puede
+        acceder directamente. Son todas las tecnologías de diseño y desarrollo web
+        que corren en el navegador y que se encargan de la interactividad con los
+        usuarios.
+        Un programador Frontend debe saber de códigos [HTML, CSS y
+        JavaScript](HTML, CSS y JavaScript) para poder usar algunos frameworks o
+        librerías que expanden sus capacidades para crear cualquier tipo de interfaces
+        de usuarios. React, Redux, Angular, Bootstrap, Foundation, LESS, Sass, Stylus y
+        PostCSS son algunos de ellos.
+    </p>
+    <div>
+
+    </div>
+</section>
+
+<section>
+    <form action="">
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+    </form>
+</section>
+
+
+<footer>
+    <div class="enlaces">
+        <h3>Enalces Nacionales</h3>
+        <a href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx">MinSALUD</a> <br>
+        <a href="https://coronaviruscolombia.gov.co/Covid19/index.html">Coronavirus Colombia</a> <br>
+        <a href="https://www.ins.gov.co/Noticias/paginas/coronavirus.aspx">INSalud</a>  <br>
+    </div>
+    <div class="enlaces">
+        <h3>Enlaces Internacionales</h3>
+        <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses">OMS</a>  <br>
+        <a href="https://coronavirus.app/map">Coronavirus App</a>  <br>
+        <a href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963">Clinica Mayo</a> <br>
+        <a href="https://www.un.org/es/coronavirus">Naciones Unidas</a>  <br>
+    </div class="enlaces">
+    
+   <div class="contac">
+        <h3>Contacto</h3>
+        <h4>Email: carlosreneas@ufps.edu.co</h4>
+        <h4>Cel 313 445 6789</h4>
+    </div>
+    <div class="ultimo">
+        <h4 >2020 © All Rights Reserved. Desarrollado por Freddy Sebastian Chia Vera
+        </h4>
+    </div>
+</footer>
+
+</body>
+</html>
